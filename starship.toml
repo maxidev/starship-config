@@ -1,0 +1,13 @@
+# Starship command prompt configuration file.
+
+[directory]
+truncate_to_repo = false
+fish_style_pwd_dir_length = 2
+style = "#000000"
+format = "[](bg:$style fg:black)[$path[$read_only]($read_only_style)](bg:$style)[](fg:$style) "
+
+[time]
+disabled = false
+time_format = "%H:%M:%S"
+#style = "#4169e1"
+format = "(bg:$style fg:black)[⏲  $time ](bg:$style fg:white)(fg:$style)"
